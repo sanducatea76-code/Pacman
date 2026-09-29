@@ -1,0 +1,19 @@
+all: PacmanGame
+
+PacmanGame: Main.o Engine.o Renderer.o Listener.o
+	g++ -o Pacman.exe Main.o Engine.o Renderer.o Listener.o
+
+Main.o: Main.cpp
+	g++ Main.cpp -o Main.o -c
+
+Engine.o: Engine.cpp
+	g++ Engine.cpp -o Engine.o -c
+
+Renderer.o: Renderer.cpp
+	g++ Renderer.cpp -o Renderer.o -c
+
+Listener.o: Listener.cpp
+	g++ Listener.cpp -o Listener.o -c
+
+clean:
+	rm -f *.o *.exe

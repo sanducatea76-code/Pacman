@@ -50,3 +50,16 @@ The game takes place inside a grid-based maze:
 * **Input Handling**: Non-blocking input detection using `_kbhit()` and `_getch()` from `<conio.h>`.
 * **Rendering**: Low-flicker screen rendering utilizing `SetConsoleCursorPosition`.
 * **AI Logic**: Euclidean distance tracking for target acquisition and wall collision detection.
+
+
+# Pacman Game in C++
+
+A console-based Pacman game implemented in C++ using an object-oriented approach.
+
+## Build and Run
+
+To build the project using the Makefile from the command line:
+\`\`\`bash
+make clean
+make
+\`\`\`

@@ -1,0 +1,27 @@
+cmake_minimum_required(VERSION3.10)
+project(PacmanLab02)
+set(CMAKE_CXX_STANDARD 17)
+add_executable(pacman main.cpp)
+
+
+
+
+--------------------------------------------------(LA PERECHE)
+
+CC=g++
+CXXFLAGS= -std = c++20 -02
+LINKFLAGS = 
+# in acest director va fi creat app
+BINDIR = bin
+#in acest director contite obj/ temp
+OBJDIR -obj
+# name
+APP = pacman
+
+all: prepare build
+prepare:
+mkdir -p ${BINDIR}
+mkdir -p ${BINDIR}
+
+build:${BINDIR}/ engine.o ${BINDIR}/listener.o ${BINDIR}/ map.o ${BINDIR}/renderer.o${BINDIR}/ main.o
+
