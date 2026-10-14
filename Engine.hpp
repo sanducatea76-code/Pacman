@@ -11,7 +11,7 @@ class Engine {
 public:
     Engine();
 
-    void init();
+    void init();  
 
     void setDirection(Direction dir);
 
