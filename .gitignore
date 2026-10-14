@@ -1,4 +1,20 @@
+# Fișiere compilator
 *.o
+*.obj
 *.exe
-.vs/
+*.out
+
+# Foldere de build
 build/
+.vs/
+.vscode/
+.idea/
+
+# Fișiere editor
+*.swp
+*.swo
+*~
+
+# Sistem de operare
+.DS_Store
+Thumbs.db
